@@ -549,8 +549,8 @@ section .prose, section .wrap.prose { padding-bottom: 2rem; }
   align-items: start;
 }
 .portrait-sm {
-  width: 140px;
-  height: 140px;
+  width: 168px;
+  height: 168px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
