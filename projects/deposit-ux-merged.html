@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>多市場儲值體驗改版：假設驅動的設計追蹤與迭代 · Finny Chiu</title>
-  <meta name="description" content="以假設（hypothesis）驅動儲值體驗改版：建立功能上線紀錄與追蹤計畫、埋設 GA／datalayer 區分新舊用戶，並用監控數據迭代教學影片、再試一次、快速標籤等功能；同時分享分流錯誤等採坑。 並延伸以假設卡與 DB／GA 成功率對照完成功能複盤。">
+  <title>多國語系網站儲值優化 · Finny Chiu</title>
+  <meta name="description" content="以假設驅動多國語系網站儲值體驗優化：建立 Tracking Plan／GA 埋點，分批上線並用參與度、點擊與成功率迭代教學、再試與標籤等功能。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,51 +25,66 @@
 <article class="case-hero case-hero-compact">
   <div class="wrap">
     <div class="crumb"><a href="../index.html">Finny Chiu</a> / 專案</div>
-    <div class="card-meta" style="margin-bottom:0.85rem"><span class="tag">UX Research</span><span class="tag">Analytics</span><span class="tag">Hypothesis-Driven Design</span><span class="tag">Conversion</span><span class="tag">Design Iteration</span></div>
-    <h1>多市場儲值體驗改版：假設驅動的設計追蹤與迭代</h1>
-    <p class="subtitle">合併 Revamp Workflow 與 Design Tracking Plan：從假設、埋點到監控複盤</p>
+    <div class="card-meta" style="margin-bottom:0.85rem"><span class="tag">UX Research</span><span class="tag">Analytics</span><span class="tag">Hypothesis-Driven Design</span><span class="tag">Conversion</span><span class="tag">i18n</span></div>
+    <h1>多國語系網站儲值優化</h1>
+    <p class="subtitle">假設 × GA 追蹤 × 分批上線：讓多幣別市場的改版說得清楚、改得回去</p>
     <div class="meta-row meta-row-compact">
       <div class="meta-item"><label>角色</label><span>產品分析／UIUX 設計協作</span></div>
       <div class="meta-item"><label>時間</label><span>2023-11 ～ 2024-03</span></div>
-      <div class="meta-item"><label>工具／方法</label><span>GA · GTM · CRM log · Design Tracking Plan · Wireflow／Mockup · A/B 分流</span></div>
+      <div class="meta-item"><label>工具／方法</label><span>GA · GTM · Design Tracking Plan · Hypothesis · A/B 分流</span></div>
     </div>
   </div>
 </article>
 
 <section class="case-body">
   <div class="wrap case-wrap">
-    <div class="note-banner">產業與客戶品牌已匿名；分析後台與第三方品牌截圖未上架。</div>
+    <div class="note-banner">客戶品牌、金流與產業識別已匿名；分析圖中的產品線名稱與 logo 已遮罩。</div>
     <div class="split-3 pso">
-      <div class="block"><h3><span class="dot"></span>問題</h3><p>舊流程轉換率不足；新舊用戶未分流埋點，易誤判改版成效。</p></div>
-      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>假設驅動工作流＋Tracking Plan；GA／datalayer 區分客群，依數據迭代 UI。</p></div>
-      <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果</h3><p>可重用追蹤模板、分批上線對照指標，並留下分流採坑供複盤。</p></div>
+      <div class="block"><h3><span class="dot"></span>問題</h3><p>多語系／多幣別市場同時改版時，若未用假設與埋點區分客群，容易把「逛逛／迷路／有意圖」混在同一指標裡，誤判成效。</p></div>
+      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>先寫假設卡與 Tracking Plan，再用 GA／datalayer 對照參與度、點擊與成功率；分批上線後依數據迭代教學、再試、快速標籤等功能。</p></div>
+      <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果</h3><p>留下可重用追蹤模板與分批監控方法，並記錄分流採坑供複盤。</p></div>
     </div>
     
-    <ul class="outcome-chips"><li>建立可重複使用的 Design Tracking / GA 規劃模板</li><li>多功能分批上線並對照監控指標（點擊、參與度、成功率）</li><li>記錄分流錯誤與關鍵影響者等監控採坑，供團隊複盤</li></ul>
+    <ul class="outcome-chips"><li>建立可重複使用的 Design Tracking／GA 規劃模板</li><li>多幣別市場以參與度、點擊、成功率對照改版前後</li><li>分批上線教學／再試／標籤等功能，並用數據決定下一步</li><li>記錄分流錯誤與關鍵影響者等監控採坑，供團隊複盤</li></ul>
 
     <h2 class="story-heading">視覺敘事</h2>
     <div class="visual-story">
 <figure class="shot-full">
-  <img src="../images/deposit-ux-merged/workflow.png" alt="Revamp Design 工作流：調查→計畫→UI→審核→上線→分析→迭代" loading="lazy">
-  <figcaption>Revamp Design 工作流：調查→計畫→UI→審核→上線→分析→迭代</figcaption>
+  <img src="../images/deposit-ux-merged/img00_hypothesis_flow.png" alt="假設驅動閉環：Hypothesis → Tracking Plan／GA → 分批上線 → 監控 → 迭代" loading="lazy">
+  <figcaption>假設驅動閉環：Hypothesis → Tracking Plan／GA → 分批上線 → 監控 → 迭代</figcaption>
 </figure>
 <figure class="shot-full">
-  <img src="../images/deposit-ux-merged/img05_tracking_redacted.png" alt="Tracking goal 框架（產業用語已遮罩）" loading="lazy">
-  <figcaption>Tracking goal 框架（產業用語已遮罩）</figcaption>
+  <img src="../images/deposit-ux-merged/img05_hypothesis_template_redacted.png" alt="假設卡／Tracking Goal 模板：先寫清要回答的問題與指標定義（產業用語已遮罩）" loading="lazy">
+  <figcaption>假設卡／Tracking Goal 模板：先寫清要回答的問題與指標定義（產業用語已遮罩）</figcaption>
 </figure>
 <div class="shot-pair">
 <figure>
-  <img src="../images/deposit-ux-merged/img03_redacted.png" alt="追蹤／分析相關視覺" loading="lazy">
-  <figcaption>追蹤／分析相關視覺</figcaption>
+  <img src="../images/deposit-ux-merged/img01_ga_engagement_redacted.png" alt="多幣別 GA 參與度／跳出率對照（產品線名稱已遮罩）" loading="lazy">
+  <figcaption>多幣別 GA 參與度／跳出率對照（產品線名稱已遮罩）</figcaption>
 </figure>
 <figure>
-  <img src="../images/deposit-ux-merged/img04_redacted.png" alt="設計迭代相關圖" loading="lazy">
-  <figcaption>設計迭代相關圖</figcaption>
+  <img src="../images/deposit-ux-merged/img02_ga_compare_redacted.png" alt="另一週期的市場對照：用數據判斷改版是否真的改善意圖用戶體驗" loading="lazy">
+  <figcaption>另一週期的市場對照：用數據判斷改版是否真的改善意圖用戶體驗</figcaption>
 </figure>
 </div>
+<div class="shot-pair">
+<figure>
+  <img src="../images/deposit-ux-merged/img03_tutorial_analytics_redacted.png" alt="教學內容成效追蹤：上線前後觀看趨勢（品牌與金流名稱已遮罩）" loading="lazy">
+  <figcaption>教學內容成效追蹤：上線前後觀看趨勢（品牌與金流名稱已遮罩）</figcaption>
+</figure>
+<figure>
+  <img src="../images/deposit-ux-merged/img04_success_rate_redacted.png" alt="以成功率查詢對照改版前後，避免只看點擊而忽略完成率" loading="lazy">
+  <figcaption>以成功率查詢對照改版前後，避免只看點擊而忽略完成率</figcaption>
+</figure>
+</div>
+<figure class="shot-full">
+  <img src="../images/deposit-ux-merged/img06_tracking_form_redacted.png" alt="埋點表單與維度檢查清單：統一命名、分流維度與驗收（品牌連結已遮罩）" loading="lazy">
+  <figcaption>埋點表單與維度檢查清單：統一命名、分流維度與驗收（品牌連結已遮罩）</figcaption>
+</figure>
+
 </div>
 
-    <div class="prev-next"><a href="aiops-market-research.html"><div class="label">← 上一個</div><div class="title">智能維運產品市場研究：AIOps 競品旅程與零信任脈絡…</div></a><a href="research-institute-web-redesign.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">研究機構官網改版：快捷列、視覺層級與專業團隊頁…</div></a></div>
+    <div class="prev-next"><a href="aiops-market-research.html"><div class="label">← 上一個</div><div class="title">智能維運產品市場研究</div></a><a href="pm-vs-design-alignment.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">需求歪樓：PM 聽到的 vs 設計聽到的</div></a></div>
   </div>
 </section>
 

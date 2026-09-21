@@ -50,7 +50,7 @@
     ],
     "cover": "images/productization-ai-ui/img01_diagram.png",
     "accent": "#60a5fa",
-    "note": "來源簡報無 UI 截圖（僅文字／形狀）；站上為去識別概念圖。產品代號、事業單位與講者姓名已自公開文案移除。"
+    "note": "來源簡報無 UI 截圖（僅文字／形狀）；站上為去識別概念圖。產品代號、事業單位與講者姓名已自公開文案移除。 前端堆疊強調去中國化，以利政府單位導入。"
   },
   {
     "id": "esg-ai-ocr-entry",
@@ -108,7 +108,7 @@
     "id": "vibe-coding-collaboration",
     "slug": "vibe-coding-collaboration",
     "title": "AI Vibe Coding 協作：誰來確保 UI「好用、可維護、可落地」",
-    "subtitle": "從逐頁畫稿，走向 Design System 驅動的規則先行模式",
+    "subtitle": "速度很有價值；真正要守住的是體驗、一致性與可維護性",
     "role": "UI/UX 觀點倡議",
     "timeline": "2026 內部研討",
     "tools": [
@@ -131,8 +131,8 @@
     "solution": "保留 Vibe Coding 的速度優勢，但改為：先建 Design System 與 Token → 透過 MCP/Skills 讓 AI 讀規則 → 訂 Vibe Coding 規範 → AI 生成 → RD 驗證 → UIUX 做 UX Review。",
     "outcomes": [
       "定義新協作模型：UIUX 交付物從「每頁畫面」變為「可執行的設計規則」+「使用者角度驗收」",
-      "新舊模式對照表：一致性改由系統保證，成本從反覆重畫轉為一次性規則建置",
-      "指出風險：規則不完整時，AI 會「一致地錯」"
+      "新舊模式對照：一致性改由系統保證，成本從反覆重畫轉為一次性規則建置",
+      "指出風險：規則不完整時，AI 會「一致地錯」——因此規則與 UX Review 不可省"
     ],
     "sections": [
       {
@@ -152,59 +152,15 @@
         "body": "簡報含 Design Token 驅動主題預覽、以及監控類 dashboard 改良對照，用以說明 AI 產出需再經體驗把關。"
       }
     ],
-    "cover": "images/vibe-coding-collaboration/img01_redacted.png",
-    "accent": "#22d3ee"
-  },
-  {
-    "id": "security-asset-platform",
-    "slug": "security-asset-platform",
-    "title": "資安資產清單與弱點修補管理平台",
-    "subtitle": "對齊法規稽核需求的資產查詢／弱點修補工作流",
-    "role": "產品 UI／工作流設計",
-    "timeline": "企業資安產品",
-    "tools": [
-      "Agent 資安蒐集",
-      "Windows KBID／Patch 自動化",
-      "企業資安產品 UI"
-    ],
-    "tags": [
-      "Cybersecurity",
-      "Enterprise SaaS",
-      "Dashboard",
-      "Compliance",
-      "Product UI"
-    ],
-    "summary": "為滿足資安法、金融／上市櫃監管與 ISO 27001 對資產清單與弱點修補的稽核要求，設計資產 IP 檢視、弱點狀態分流與修補紀錄等產品能力，並涵蓋 Agent 自動更新與已刪除軟體軌跡。",
-    "problem": "公務機關、關鍵基礎設施與受監管企業需定期提交／留存弱點掃描與修補證據；實務上資產盤點、修補進度與查核舉證常分散且難追溯。",
-    "solution": "以統一平台支援資產清單查詢與弱點修補管理：依未修補／已改善／已修補分流、CVE 與嚴重度呈現、改善措施紀錄；Agent 自動更新與 Windows patch；保留軟體消失軌跡以利稽核。",
-    "outcomes": [
-      "對應政府／資安署申報與內部報告場景",
-      "可證明 Windows 更新進度是否合規",
-      "Email／查核證據留存情境被點名為使用時機（簡報條列）"
-    ],
-    "sections": [
-      {
-        "heading": "法規與標準脈絡",
-        "body": "資通安全管理法（定期弱點掃描修補與留存）、金融與上市櫃監管／ESG 揭露、ISO 27001 稽核必考資產管理與弱點修補。"
-      },
-      {
-        "heading": "產品能力（去識別）",
-        "body": "資產 IP 檢視、弱點修補管理表、狀態分頁、搜尋與改善措施編輯；Agent 自動更新與 KB patch；已刪除軟體紀錄。"
-      },
-      {
-        "heading": "使用時機",
-        "body": "政府稽核或例行申報；工程師修補與會議報告；證明更新進度；留存查核證據。"
-      }
-    ],
-    "cover": "images/security-asset-platform/img01_redacted.png",
-    "accent": "#34d399",
-    "note": "截圖已遮罩 hostname／IP；產品正式名稱已匿名。"
+    "cover": "images/vibe-coding-collaboration/img01_flow.png",
+    "accent": "#22d3ee",
+    "note": "來源為內部研討簡報；產品代號與雇主識別已自公開文案與圖像遮罩。"
   },
   {
     "id": "design-ai-exploration",
     "slug": "design-ai-exploration",
     "title": "Design AI 心得：從單頁生成到企業環境整合",
-    "subtitle": "探索設計 AI 工具鏈，並反思企業 Domain Know-how 的落地門檻",
+    "subtitle": "單頁生成很快；真正難的是企業怎麼運作、環境怎麼接",
     "role": "產品策略／工具探索",
     "timeline": "2026 心得分享",
     "tools": [
@@ -223,7 +179,8 @@
     "problem": "AI 可以快速產生頁面與功能原型，但企業實際運作方式、異質系統與領域知識無法被模型自動掌握，導致「看起來能用」與「可落地」之間落差。",
     "solution": "並行探索多種 Design AI／Coding Agent 工具；用實驗驗證哪些能力黏得住；同時強調軟體產品需深度整合企業環境與 Domain Know-how。",
     "outcomes": [
-      "整理 Open Design／Codex／Claude Code 等工具試用觀察（名稱可作工具標籤，非客戶名）",
+      "整理 Design AI／Coding Agent 等工具試用觀察（名稱可作工具標籤，非客戶名）",
+      "釐清單頁生成與企業落地的落差：Domain Know-how、異質環境整合",
       "形成對 AI 產品設計的策略觀點：實驗要敢丟，落地要整合環境"
     ],
     "sections": [
@@ -236,8 +193,9 @@
         "body": "「把意大利麵扔到牆上，看看哪些能粘住」——鼓勵實驗；但企業軟體必須解決異質環境整合與 Domain Know-how，AI 很難單靠生成跨越。"
       }
     ],
-    "cover": "images/design-ai-exploration/img01.png",
-    "accent": "#f472b6"
+    "cover": "images/design-ai-exploration/img01_process_human.png",
+    "accent": "#f472b6",
+    "note": "來源為心得分享簡報；刪除與主題無關的儀表板實驗截圖。工具名可作標籤，客戶／雇主識別已匿名。"
   },
   {
     "id": "aiops-market-research",
@@ -294,8 +252,8 @@
   {
     "id": "deposit-ux-merged",
     "slug": "deposit-ux-merged",
-    "title": "多市場儲值體驗改版：假設驅動的設計追蹤與迭代",
-    "subtitle": "合併 Revamp Workflow 與 Design Tracking Plan：從假設、埋點到監控複盤",
+    "title": "多國語系網站儲值優化",
+    "subtitle": "假設 × GA 追蹤 × 分批上線：讓多幣別市場的改版說得清楚、改得回去",
     "role": "產品分析／UIUX 設計協作",
     "timeline": "2023-11 ～ 2024-03",
     "tools": [
@@ -314,18 +272,16 @@
       "Analytics",
       "Hypothesis-Driven Design",
       "Conversion",
-      "Design Iteration"
+      "i18n"
     ],
-    "summary": "以假設（hypothesis）驅動儲值體驗改版：建立功能上線紀錄與追蹤計畫、埋設 GA／datalayer 區分新舊用戶，並用監控數據迭代教學影片、再試一次、快速標籤等功能；同時分享分流錯誤等採坑。 並延伸以假設卡與 DB／GA 成功率對照完成功能複盤。",
-    "problem": "舊儲值流程轉換與自助完成率不足；教學與通路資訊不易被發現；新舊用戶行為不同，若未正確分流與埋點，會誤判改版成效。",
-    "solution": "定義 Revamp workflow（調查→追蹤計畫→UI→審核→上線→分析→迭代）；為各功能寫 For/If/Then/Because/Impact 假設；GA event + datalayer 區分新舊客；依點擊與儲值成功率迭代 UI（更明顯按鈕、PiP 教學影片等）。",
+    "summary": "以假設驅動多國語系網站儲值體驗優化：建立 Tracking Plan／GA 埋點，分批上線並用參與度、點擊與成功率迭代教學、再試與標籤等功能。",
+    "problem": "多語系／多幣別市場同時改版時，若未用假設與埋點區分客群，容易把「逛逛／迷路／有意圖」混在同一指標裡，誤判成效。",
+    "solution": "先寫假設卡與 Tracking Plan，再用 GA／datalayer 對照參與度、點擊與成功率；分批上線後依數據迭代教學、再試、快速標籤等功能。",
     "outcomes": [
-      "建立可重複使用的 Design Tracking / GA 規劃模板",
-      "多功能分批上線並對照監控指標（點擊、參與度、成功率）",
-      "記錄分流錯誤與關鍵影響者等監控採坑，供團隊複盤",
-      "功能×工單×上線時間追蹤表",
-      "多幣別市場成功率對照（新舊版）",
-      "教學影片問題分析與後續埋點建議"
+      "建立可重複使用的 Design Tracking／GA 規劃模板",
+      "多幣別市場以參與度、點擊、成功率對照改版前後",
+      "分批上線教學／再試／標籤等功能，並用數據決定下一步",
+      "記錄分流錯誤與關鍵影響者等監控採坑，供團隊複盤"
     ],
     "sections": [
       {
@@ -349,55 +305,9 @@
         "body": "DB 成功率、GA 點擊比例、影音觀看；記錄特定通路異常詢問與新舊客點擊下降原因，提出分流埋點修正。"
       }
     ],
-    "cover": "images/deposit-ux-merged/workflow.png",
+    "cover": "images/deposit-ux-merged/img00_hypothesis_flow.png",
     "accent": "#fb923c",
-    "note": "產業與客戶品牌已匿名；分析後台與第三方品牌截圖未上架。"
-  },
-  {
-    "id": "research-institute-web-redesign",
-    "slug": "research-institute-web-redesign",
-    "title": "研究機構官網改版：快捷列、視覺層級與專業團隊頁",
-    "subtitle": "側欄互動、分享／列印、團隊 Tab／RWD／英文化的 UIUX 提案",
-    "role": "UI/UX 網頁改版提案",
-    "timeline": "2025/08",
-    "tools": [
-      "網頁 UI",
-      "RWD",
-      "視覺層級",
-      "互動原型示意"
-    ],
-    "tags": [
-      "Web Redesign",
-      "UI",
-      "RWD",
-      "Visual Hierarchy",
-      "Institutional"
-    ],
-    "summary": "針對研究機構官網提出一系列介面改版：右側快捷功能收合與造型、助手入口擴充、分享列視覺層級（主／輔操作色階）、友善列印強調，以及專業團隊頁兩套 Style（Tab 切換部門、Hover、RWD、英文版兩行 Tab）。",
-    "problem": "快捷與分享操作層級不清、列印入口不夠顯眼；專業團隊頁資訊密度與部門切換在桌機／手機／英文版的體驗不一致。",
-    "solution": "重做側欄快捷（收合、圓弧造型）；依「主動導出 vs 輔助」分色階安排分享／複製連結；強化列印 CTA；專業團隊頁提出 Style 1（高資訊密度 Tab）與 Style 2（圓弧、留白、左側部門）並補齊 Hover／RWD／英文版。",
-    "outcomes": [
-      "完成可對客戶說明的設計決策文案（為何複製連結用低彩度等）",
-      "兩套團隊頁風格 + 部門切換／RWD／英文版完整示意",
-      "快捷列與助手入口的互動細節提案"
-    ],
-    "sections": [
-      {
-        "heading": "快捷與分享列",
-        "body": "收合按鈕與圓弧造型提升可發現性；Facebook／LINE／列印／PDF 用高彩度，複製連結用淺灰降低權重。"
-      },
-      {
-        "heading": "專業團隊 Style 1",
-        "body": "Tab 切換部門減少長滾動；強化姓名／職位色階與照片邊框；提高同屏人數。"
-      },
-      {
-        "heading": "專業團隊 Style 2 與多語 RWD",
-        "body": "圓弧與留白提升親切感；手機 <990px Tab 自適應；英文版桌機 Tab 兩行以顯示全部部門。"
-      }
-    ],
-    "cover": "images/research-institute-web-redesign/img04_redacted.png",
-    "accent": "#2dd4bf",
-    "note": "機構 logo、聯絡資訊與人員肖像／姓名已遮罩或排除；展示為去識別後的介面結構。"
+    "note": "客戶品牌、金流與產業識別已匿名；分析圖中的產品線名稱與 logo 已遮罩。"
   },
   {
     "id": "pm-vs-design-alignment",

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Design AI 心得：從單頁生成到企業環境整合 · Finny Chiu</title>
-  <meta name="description" content="分享使用設計／程式 AI（含單頁設計、畫布、程式代理）的實作心得，並指出 AI 能寫功能卻難快速整合各企業異質環境與 Domain Know-how——需要產品策略上的深度整合，而非只拋功能實驗。">
+  <meta name="description" content="分享 Design AI／Coding Agent 試用心得：單頁生成很快，但企業 Domain Know-how 與異質環境整合才是落地門檻；流程角色仍在，AI 改變的是速度而非責任。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -27,63 +27,52 @@
     <div class="crumb"><a href="../index.html">Finny Chiu</a> / 專案</div>
     <div class="card-meta" style="margin-bottom:0.85rem"><span class="tag">Design AI</span><span class="tag">Generative AI</span><span class="tag">Product Strategy</span><span class="tag">Tooling</span></div>
     <h1>Design AI 心得：從單頁生成到企業環境整合</h1>
-    <p class="subtitle">探索設計 AI 工具鏈，並反思企業 Domain Know-how 的落地門檻</p>
+    <p class="subtitle">單頁生成很快；真正難的是企業怎麼運作、環境怎麼接</p>
     <div class="meta-row meta-row-compact">
       <div class="meta-item"><label>角色</label><span>產品策略／工具探索</span></div>
       <div class="meta-item"><label>時間</label><span>2026 心得分享</span></div>
-      <div class="meta-item"><label>工具／方法</label><span>Design AI · Codex · Claude Code · Canvas／設計畫布類工具</span></div>
+      <div class="meta-item"><label>工具／方法</label><span>Design AI · Coding Agent · Canvas／設計畫布類工具</span></div>
     </div>
   </div>
 </article>
 
 <section class="case-body">
   <div class="wrap case-wrap">
-    
+    <div class="note-banner">來源為心得分享簡報；刪除與主題無關的儀表板實驗截圖。工具名可作標籤，客戶／雇主識別已匿名。</div>
     <div class="split-3 pso">
-      <div class="block"><h3><span class="dot"></span>問題</h3><p>AI 能快速產頁面，卻難跨越企業異質環境與 Domain Know-how。</p></div>
-      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>並行探索 Design AI／Coding Agent；實驗驗證黏著力，並強調深度整合策略。</p></div>
+      <div class="block"><h3><span class="dot"></span>問題</h3><p>Design AI 能快速產出單頁與變體，但企業實際運作方式（Domain Know-how）與各家異質系統環境，無法靠一次生成跨越。</p></div>
+      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>並行探索工具鏈做實驗驗證；同時強調產品策略上要深度整合企業環境，並保留 PO→UX→Dev→QA 的責任鏈。</p></div>
       <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果</h3><p>形成觀點：實驗要敢丟，落地要整合環境——生成無法單靠跨越領域知識。</p></div>
     </div>
     
-    <ul class="outcome-chips"><li>整理 Open Design／Codex／Claude Code 等工具試用觀察（名稱可作工…</li><li>形成對 AI 產品設計的策略觀點：實驗要敢丟，落地要整合環境</li></ul>
+    <ul class="outcome-chips"><li>整理 Design AI／Coding Agent 等工具試用觀察（名稱可作工具標籤，非客戶名）</li><li>釐清單頁生成與企業落地的落差：Domain Know-how、異質環境整合</li><li>形成對 AI 產品設計的策略觀點：實驗要敢丟，落地要整合環境</li></ul>
 
     <h2 class="story-heading">視覺敘事</h2>
     <div class="visual-story">
 <figure class="shot-full">
-  <img src="../images/design-ai-exploration/img01.png" alt="產品開發流程角色插畫" loading="lazy">
-  <figcaption>產品開發流程角色插畫</figcaption>
+  <img src="../images/design-ai-exploration/img01_process_human.png" alt="傳統流程角色：PO／PM 定需求 → UIUX 做體驗 → Dev 實作 → QA 驗收" loading="lazy">
+  <figcaption>傳統流程角色：PO／PM 定需求 → UIUX 做體驗 → Dev 實作 → QA 驗收</figcaption>
 </figure>
 <figure class="shot-full">
-  <img src="../images/design-ai-exploration/img02_redacted.png" alt="Design AI 工具探索視覺" loading="lazy">
-  <figcaption>Design AI 工具探索視覺</figcaption>
+  <img src="../images/design-ai-exploration/img02_process_ai.png" alt="加入 AI 後：設計／開發／測試段可被加速，但責任歸屬與企業理解仍在人" loading="lazy">
+  <figcaption>加入 AI 後：設計／開發／測試段可被加速，但責任歸屬與企業理解仍在人</figcaption>
 </figure>
-<div class="shot-pair">
-<figure>
-  <img src="../images/design-ai-exploration/img03_redacted.png" alt="畫布／工具示意" loading="lazy">
-  <figcaption>畫布／工具示意</figcaption>
-</figure>
-<figure>
-  <img src="../images/design-ai-exploration/img04_redacted.png" alt="AI 設計流程觀察" loading="lazy">
-  <figcaption>AI 設計流程觀察</figcaption>
-</figure>
-</div>
 <figure class="shot-full">
-  <img src="../images/design-ai-exploration/img05_redacted.png" alt="AI 生成企業儀表板實驗" loading="lazy">
-  <figcaption>AI 生成企業儀表板實驗</figcaption>
+  <img src="../images/design-ai-exploration/img03_tool_opendesign_redacted.png" alt="工具探索：開源 Design AI 可快速做單頁／原型生成（工具名可作標籤，非客戶名）" loading="lazy">
+  <figcaption>工具探索：開源 Design AI 可快速做單頁／原型生成（工具名可作標籤，非客戶名）</figcaption>
 </figure>
-<div class="shot-pair">
-<figure>
-  <img src="../images/design-ai-exploration/img06_redacted.png" alt="介面變體探索" loading="lazy">
-  <figcaption>介面變體探索</figcaption>
+<figure class="shot-full">
+  <img src="../images/design-ai-exploration/img04_enterprise_challenge.png" alt="關鍵落差：單頁生成容易；企業 Domain Know-how 與異質環境整合才是門檻" loading="lazy">
+  <figcaption>關鍵落差：單頁生成容易；企業 Domain Know-how 與異質環境整合才是門檻</figcaption>
 </figure>
-<figure>
-  <img src="../images/design-ai-exploration/img07_redacted.png" alt="元件與版面實驗" loading="lazy">
-  <figcaption>元件與版面實驗</figcaption>
+<figure class="shot-full">
+  <img src="../images/design-ai-exploration/img05_roles_remain.png" alt="策略觀點：實驗要敢丟；落地要深度整合——生成無法單靠跨越領域知識" loading="lazy">
+  <figcaption>策略觀點：實驗要敢丟；落地要深度整合——生成無法單靠跨越領域知識</figcaption>
 </figure>
-</div>
+
 </div>
 
-    <div class="prev-next"><a href="security-asset-platform.html"><div class="label">← 上一個</div><div class="title">資安資產清單與弱點修補管理平台…</div></a><a href="aiops-market-research.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">智能維運產品市場研究：AIOps 競品旅程與零信任脈絡…</div></a></div>
+    <div class="prev-next"><a href="vibe-coding-collaboration.html"><div class="label">← 上一個</div><div class="title">AI Vibe Coding 協作</div></a><a href="aiops-market-research.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">智能維運產品市場研究</div></a></div>
   </div>
 </section>
 

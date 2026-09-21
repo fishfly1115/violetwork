@@ -1,72 +1,24 @@
 {
-  "aiops-market-research": [
+  "productization-ai-ui": [
     {
-      "file": "aiops-market-research/img01_journey.png",
+      "file": "productization-ai-ui/img01_diagram.png",
       "status": "generated_anonymized"
     },
     {
-      "file": "aiops-market-research/img02_matrix.png",
+      "file": "productization-ai-ui/img02_diagram.png",
       "status": "generated_anonymized"
     },
     {
-      "file": "aiops-market-research/img03_dual_axis.png",
+      "file": "productization-ai-ui/img03_diagram.png",
       "status": "generated_anonymized"
     },
     {
-      "file": "aiops-market-research/img04_process.png",
+      "file": "productization-ai-ui/img04_diagram.png",
       "status": "generated_anonymized"
-    }
-  ],
-  "deposit-ux-merged": [
-    {
-      "file": "deposit-ux-merged/img03_redacted.png",
-      "status": "redacted"
     },
     {
-      "file": "deposit-ux-merged/img04_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "deposit-ux-merged/img05_tracking_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "deposit-ux-merged/workflow.png",
-      "status": "safe"
-    }
-  ],
-  "design-ai-exploration": [
-    {
-      "file": "design-ai-exploration/img01.png",
-      "status": "safe"
-    },
-    {
-      "file": "design-ai-exploration/img02_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img03_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img04_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img05_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img06_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img07_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img08_redacted.png",
-      "status": "redacted"
+      "file": "productization-ai-ui/img05_diagram.png",
+      "status": "generated_anonymized"
     }
   ],
   "esg-ai-ocr-entry": [
@@ -96,6 +48,98 @@
     },
     {
       "file": "esg-ai-ocr-entry/img07_import_result_redacted.png",
+      "status": "redacted"
+    }
+  ],
+  "vibe-coding-collaboration": [
+    {
+      "file": "vibe-coding-collaboration/img01_flow.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "vibe-coding-collaboration/img02_value_risk.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "vibe-coding-collaboration/img03_rules_first.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "vibe-coding-collaboration/img04_token_theme_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img05_ai_ui_needs_review_redacted.png",
+      "status": "redacted"
+    }
+  ],
+  "design-ai-exploration": [
+    {
+      "file": "design-ai-exploration/img01_process_human.png",
+      "status": "safe"
+    },
+    {
+      "file": "design-ai-exploration/img02_process_ai.png",
+      "status": "safe"
+    },
+    {
+      "file": "design-ai-exploration/img03_tool_opendesign_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img04_enterprise_challenge.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "design-ai-exploration/img05_roles_remain.png",
+      "status": "generated_anonymized"
+    }
+  ],
+  "aiops-market-research": [
+    {
+      "file": "aiops-market-research/img01_journey.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "aiops-market-research/img02_matrix.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "aiops-market-research/img03_dual_axis.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "aiops-market-research/img04_process.png",
+      "status": "generated_anonymized"
+    }
+  ],
+  "deposit-ux-merged": [
+    {
+      "file": "deposit-ux-merged/img00_hypothesis_flow.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "deposit-ux-merged/img01_ga_engagement_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img02_ga_compare_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img03_tutorial_analytics_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img04_success_rate_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img05_hypothesis_template_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img06_tracking_form_redacted.png",
       "status": "redacted"
     }
   ],
@@ -131,102 +175,6 @@
     {
       "file": "pm-vs-design-alignment/img08.png",
       "status": "safe"
-    }
-  ],
-  "productization-ai-ui": [
-    {
-      "file": "productization-ai-ui/img01_diagram.png",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img02_diagram.png",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img03_diagram.png",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img04_diagram.png",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img05_diagram.png",
-      "status": "generated_anonymized"
-    }
-  ],
-  "research-institute-web-redesign": [
-    {
-      "file": "research-institute-web-redesign/img04_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "research-institute-web-redesign/img06_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "research-institute-web-redesign/img07_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "research-institute-web-redesign/img08_redacted.png",
-      "status": "redacted"
-    }
-  ],
-  "security-asset-platform": [
-    {
-      "file": "security-asset-platform/img01_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img02_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img03_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img04_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img05_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img06_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img07_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img08_redacted.png",
-      "status": "redacted"
-    }
-  ],
-  "vibe-coding-collaboration": [
-    {
-      "file": "vibe-coding-collaboration/img01_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img02_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img03_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img04_redacted.png",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img05_redacted.png",
-      "status": "redacted"
     }
   ]
 }
