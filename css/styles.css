@@ -582,3 +582,11 @@ section .prose, section .wrap.prose { padding-bottom: 2rem; }
   }
   .portrait-sm { width: 120px; height: 120px; }
 }
+
+
+.about-practice {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
