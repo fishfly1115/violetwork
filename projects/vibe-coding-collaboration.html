@@ -22,13 +22,13 @@
     </div>
   </div>
 </nav>
-<article class="case-hero">
+<article class="case-hero case-hero-compact">
   <div class="wrap">
     <div class="crumb"><a href="../index.html">Finny Chiu</a> / 專案</div>
-    <div class="card-meta" style="margin-bottom:1rem"><span class="tag">AI</span><span class="tag">Vibe Coding</span><span class="tag">Design System</span><span class="tag">Collaboration</span><span class="tag">UX Review</span></div>
+    <div class="card-meta" style="margin-bottom:0.85rem"><span class="tag">AI</span><span class="tag">Vibe Coding</span><span class="tag">Design System</span><span class="tag">Collaboration</span><span class="tag">UX Review</span></div>
     <h1>AI Vibe Coding 協作：誰來確保 UI「好用、可維護、可落地」</h1>
     <p class="subtitle">從逐頁畫稿，走向 Design System 驅動的規則先行模式</p>
-    <div class="meta-row">
+    <div class="meta-row meta-row-compact">
       <div class="meta-item"><label>角色</label><span>UI/UX 觀點倡議</span></div>
       <div class="meta-item"><label>時間</label><span>2026 內部研討</span></div>
       <div class="meta-item"><label>工具／方法</label><span>AI Coding · Design System · Design Token · MCP / Skills · Figma（tokens 流程） · Vite</span></div>
@@ -36,42 +36,44 @@
   </div>
 </article>
 
-<section>
-  <div class="wrap prose">
+<section class="case-body">
+  <div class="wrap case-wrap">
     
-    <p>探討 Vibe Coding 讓 AI 快速產出可操作 UI 的價值與風險：當 Prototype 被當成 Design Spec，體驗與一致性會被鎖死；提出以 Design System／Token／規範驅動 AI，UIUX 轉為規則制定者與 UX Reviewer。</p>
-
-    <div class="split-3">
-      <div class="block"><h3><span class="dot"></span>問題</h3><p>AI 很快做出「看起來能用」的畫面後，PM／RD 容易把 Prototype 當最終規格，UI/UX 對資訊架構、空狀態、權限、RWD、系統一致性的把關空間被壓縮。</p></div>
-      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>保留 Vibe Coding 的速度優勢，但改為：先建 Design System 與 Token → 透過 MCP/Skills 讓 AI 讀規則 → 訂 Vibe Coding 規範 → AI 生成 → RD 驗證 → UIUX 做 UX Review。</p></div>
-      <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果摘要</h3><p>定義新協作模型：UIUX 交付物從「每頁畫面」變為「可執行的設計規則」+「使用者角度驗收」</p></div>
+    <div class="split-3 pso">
+      <div class="block"><h3><span class="dot"></span>問題</h3><p>Prototype 被當最終規格，UI／UX 把關空間被壓縮，一致性難維持。</p></div>
+      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>Design System／Token → MCP 讀規則 → Vibe 規範 → AI 生成 → RD 驗證 → UX Review。</p></div>
+      <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果</h3><p>UIUX 交付物改為可執行規則＋使用者角度驗收；成本從重畫轉為建規則。</p></div>
     </div>
-
-    <h2>深入說明</h2>
-    <div class="section-card"><h3>什麼是 Vibe Coding</h3><p>用自然語言描述需求，AI 產生／修改程式與介面，再透過 Prompt→修改→執行快速迭代，形成像產品的 Prototype。</p></div><div class="section-card"><h3>衝突點</h3><p>PM 看重可執行性與完成感；UI/UX 看重可用性、一致性、完整性。Prototype 定型後修改成本上升。</p></div><div class="section-card"><h3>新模式：規則先行</h3><p>Design System → MCP/Skills → Vibe Coding 規範 → AI Coding → RD 驗證 → UX Review。</p></div><div class="section-card"><h3>範例觀察（已去識別）</h3><p>簡報含 Design Token 驅動主題預覽、以及監控類 dashboard 改良對照，用以說明 AI 產出需再經體驗把關。</p></div>
-
     
+    <ul class="outcome-chips"><li>定義新協作模型：UIUX 交付物從「每頁畫面」變為「可執行的設計規則」+「使用者角度驗收」</li><li>新舊模式對照表：一致性改由系統保證，成本從反覆重畫轉為一次性規則建置</li><li>指出風險：規則不完整時，AI 會「一致地錯」</li></ul>
 
-    <h2>成果</h2>
-    <ul><li>定義新協作模型：UIUX 交付物從「每頁畫面」變為「可執行的設計規則」+「使用者角度驗收」</li><li>新舊模式對照表：一致性改由系統保證，成本從反覆重畫轉為一次性規則建置</li><li>指出風險：規則不完整時，AI 會「一致地錯」</li></ul>
+    <h2 class="story-heading">視覺敘事</h2>
+    <div class="visual-story">
+<figure class="shot-full">
+  <img src="../images/vibe-coding-collaboration/img01_redacted.png" alt="Design Token 驅動主題預覽（品牌已遮罩）" loading="lazy">
+  <figcaption>Design Token 驅動主題預覽（品牌已遮罩）</figcaption>
+</figure>
+<figure class="shot-full">
+  <img src="../images/vibe-coding-collaboration/img02_redacted.png" alt="監控 dashboard 改良示意（網域／IP 已遮罩）" loading="lazy">
+  <figcaption>監控 dashboard 改良示意（網域／IP 已遮罩）</figcaption>
+</figure>
+<div class="shot-pair">
+<figure>
+  <img src="../images/vibe-coding-collaboration/img03_redacted.png" alt="協作／流程相關視覺" loading="lazy">
+  <figcaption>協作／流程相關視覺</figcaption>
+</figure>
+<figure>
+  <img src="../images/vibe-coding-collaboration/img04_redacted.png" alt="複雜選取互動 UI" loading="lazy">
+  <figcaption>複雜選取互動 UI</figcaption>
+</figure>
+</div>
+<figure class="shot-full">
+  <img src="../images/vibe-coding-collaboration/img05_redacted.png" alt="規範與 UX Review 相關視覺" loading="lazy">
+  <figcaption>規範與 UX Review 相關視覺</figcaption>
+</figure>
+</div>
 
-    <h2>精選畫面</h2><div class="gallery"><figure>
-          <img src="../images/vibe-coding-collaboration/img01_redacted.png" alt="Design Token 驅動主題預覽（品牌已遮罩）" loading="lazy">
-          <figcaption>Design Token 驅動主題預覽（品牌已遮罩）</figcaption>
-        </figure><figure>
-          <img src="../images/vibe-coding-collaboration/img02_redacted.png" alt="監控 dashboard 改良示意（網域／IP 已遮罩）" loading="lazy">
-          <figcaption>監控 dashboard 改良示意（網域／IP 已遮罩）</figcaption>
-        </figure><figure>
-          <img src="../images/vibe-coding-collaboration/img04_redacted.png" alt="複雜選取互動 UI（識別資訊已遮罩）" loading="lazy">
-          <figcaption>複雜選取互動 UI（識別資訊已遮罩）</figcaption>
-        </figure><figure>
-          <img src="../images/vibe-coding-collaboration/img05_redacted.png" alt="協作／規範相關視覺（頁眉已遮罩）" loading="lazy">
-          <figcaption>協作／規範相關視覺（頁眉已遮罩）</figcaption>
-        </figure></div>
-
-        <div class="prev-next">
-      <a href="esg-ai-ocr-entry.html"><div class="label">← 上一個</div><div class="title">ESG 活動數據填寫：人性化 AI 設計…</div></a><a href="security-asset-platform.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">資安資產清單與弱點修補管理平台…</div></a>
-    </div>
+    <div class="prev-next"><a href="esg-ai-ocr-entry.html"><div class="label">← 上一個</div><div class="title">ESG 活動數據填寫：人性化 AI 設計…</div></a><a href="security-asset-platform.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">資安資產清單與弱點修補管理平台…</div></a></div>
   </div>
 </section>
 

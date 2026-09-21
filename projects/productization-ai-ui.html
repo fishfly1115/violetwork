@@ -22,64 +22,60 @@
     </div>
   </div>
 </nav>
-<article class="case-hero">
+<article class="case-hero case-hero-compact">
   <div class="wrap">
     <div class="crumb"><a href="../index.html">Finny Chiu</a> / 專案</div>
-    <div class="card-meta" style="margin-bottom:1rem"><span class="tag">Productization</span><span class="tag">Design System</span><span class="tag">AI</span><span class="tag">Frontend Architecture</span><span class="tag">Enterprise SaaS</span></div>
+    <div class="card-meta" style="margin-bottom:0.85rem"><span class="tag">Productization</span><span class="tag">Design System</span><span class="tag">AI</span><span class="tag">Frontend Architecture</span><span class="tag">Enterprise SaaS</span></div>
     <h1>產品化 UIUX × AI 自動生成介面</h1>
     <p class="subtitle">從產品架構、前端套件到 Design System，建立可被 AI 理解與重複生成的產品基礎</p>
-    <div class="meta-row">
-      <div class="meta-item"><label>角色</label><span>產品／UIUX 觀點（產品化與 AI 協作）</span></div>
-      <div class="meta-item"><label>時間</label><span>2026 內部產品化討論</span></div>
+    <div class="meta-row meta-row-compact">
+      <div class="meta-item"><label>角色</label><span>產品化／UIUX × AI 協作倡議</span></div>
+      <div class="meta-item"><label>時間</label><span>2026</span></div>
       <div class="meta-item"><label>工具／方法</label><span>Design System · React · MUI · Design Token · MCP / Skills · AI Coding</span></div>
     </div>
   </div>
 </article>
 
-<section>
-  <div class="wrap prose">
-    <div class="note-banner">來源簡報僅含文字與形狀、無 UI 截圖；產品代號、事業單位與講者姓名已去除。下方為去識別概念圖。</div>
-    <p>主張 AI 生成介面之前，必須先有產品骨架、統一前端底座與 Design System；以 React + MUI 為基礎建立可被 AI 理解的產品規範，形成「可理解→可生成→可驗證→可持續優化」閉環。</p>
-
-    <div class="split-3">
-      <div class="block"><h3><span class="dot"></span>問題</h3><p>若缺少共同產品規則，AI 只能快速生成「看起來能用」的畫面；多模組各自選套件、各自畫元件，會造成體驗不一致、重複開發，也讓 AI Coding 難以落地。</p></div>
-      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>先定義帳號／租戶／權限與模組關係（骨架），選定 React + MUI 作為前端底座（皮膚），再建產品 Design System（Token／元件／狀態／規則），再透過 MCP／Skills／Vibe Coding 規範驅動 AI 組裝介面，最後由 RD 驗證與 UIUX 做 UX Review。</p></div>
-      <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果摘要</h3><p>提出可對外說明的產品化路徑：骨架 → 前端底座 → Design System → AI 可生成</p></div>
+<section class="case-body">
+  <div class="wrap case-wrap">
+    <div class="note-banner">來源簡報無 UI 截圖（僅文字／形狀）；站上為去識別概念圖。產品代號、事業單位與講者姓名已自公開文案移除。</div>
+    <div class="split-3 pso">
+      <div class="block"><h3><span class="dot"></span>問題</h3><p>沒有共同產品規則，AI 只能生成「看起來能用」的畫面，體驗分裂、難落地。</p></div>
+      <div class="block"><h3><span class="dot" style="background:var(--accent-2)"></span>解法</h3><p>骨架 → React+MUI 底座 → Design System → MCP／Skills 驅動 AI 組裝，再經 RD／UX 驗證。</p></div>
+      <div class="block"><h3><span class="dot" style="background:#34d399"></span>成果</h3><p>釐清產品化路徑與 PM 決策清單：先建可被 AI 理解的規範，再談生成。</p></div>
     </div>
+    
+    <ul class="outcome-chips"><li>提出可對外說明的產品化路徑：骨架 → 前端底座 → Design System → AI 可…</li><li>釐清「MUI 是底座、不是產品設計」：其上仍需產品級 Token／規範</li><li>整理 Design System 對使用者／設計師／PM·RD 的價值，以及六步 AI 生成…</li></ul>
 
-    <h2>深入說明</h2>
-    <div class="section-card"><h3>先把產品想清楚</h3><p>介面不是從畫面開始，而是從產品系統架構開始：帳號／組織／租戶／角色／權限、功能模組與共用能力、前端基礎，再到產品 Design System。沒有共同規則，AI 只能生成畫面；有了骨架與 DS，才有機會生成一致的產品介面。</p></div><div class="section-card"><h3>產品系統架構（去識別）</h3><p>底層統一身份與權限（SSO／組織／角色／計畫），中層共用待辦／簽核／通知／報表／稽核軌跡，上層模組（如文件、巡檢、財務、稽核）保持獨立產品體驗。產品化不是把所有模組做成一模一樣，而是共享底層規則與使用體驗。</p></div><div class="section-card"><h3>前端套件與 MUI 決策</h3><p>前端套件影響元件完整度、設計資源（含 Figma）、可產品化（主題／Token／客製）與 AI 可落地性。最終以 MUI 作為前端元件基礎，再由產品團隊建立自己的 Design System——MUI 是底座，不是產品設計本身。</p></div><div class="section-card"><h3>設計 × 前端 × AI</h3><p>AI 自動生成介面不是單純把 Figma 丟給 AI，而是讓 AI 同時理解產品結構、元件與使用規則：產品架構 → MUI 基礎 → Design System → 設計稿 → MCP／Skills／規範 → AI Coding。AI 在既定規則內組裝介面，才更容易維持一致性與可開發性。</p></div>
+    <h2 class="story-heading">視覺敘事</h2>
+    <div class="visual-story">
+<figure class="shot-full">
+  <img src="../images/productization-ai-ui/img01_diagram.png" alt="核心四步：骨架 → 皮膚 → 設計語言 → AI 產出" loading="lazy">
+  <figcaption>核心四步：骨架 → 皮膚 → 設計語言 → AI 產出</figcaption>
+</figure>
+<div class="shot-pair">
+<figure>
+  <img src="../images/productization-ai-ui/img02_diagram.png" alt="產品系統架構：模組／共用服務／身份權限" loading="lazy">
+  <figcaption>產品系統架構：模組／共用服務／身份權限</figcaption>
+</figure>
+<figure>
+  <img src="../images/productization-ai-ui/img03_diagram.png" alt="前端堆疊：React → MUI → Design System" loading="lazy">
+  <figcaption>前端堆疊：React → MUI → Design System</figcaption>
+</figure>
+</div>
+<div class="shot-pair">
+<figure>
+  <img src="../images/productization-ai-ui/img04_diagram.png" alt="AI 生成六步：架構到 RD／UX 驗證" loading="lazy">
+  <figcaption>AI 生成六步：架構到 RD／UX 驗證</figcaption>
+</figure>
+<figure>
+  <img src="../images/productization-ai-ui/img05_diagram.png" alt="Design System 對使用者／設計／PM·RD 的價值" loading="lazy">
+  <figcaption>Design System 對使用者／設計／PM·RD 的價值</figcaption>
+</figure>
+</div>
+</div>
 
-    <h2>給 PM 的結論</h2>
-    <div class="journey">
-      <div class="journey-step"><div class="n">01</div><strong>現在要決定的</strong><span>產品骨架（帳號／租戶／權限／模組）與前端基礎（React + MUI）</span></div>
-      <div class="journey-step"><div class="n">02</div><strong>設計要建立的</strong><span>產品 Design System（Token／元件／狀態／版型）與設計／前端共用語言</span></div>
-      <div class="journey-step"><div class="n">03</div><strong>最終要達到的</strong><span>AI 可理解 → 可生成 → RD 可驗證 → UIUX 可持續優化</span></div>
-    </div>
-
-    <h2>成果</h2>
-    <ul><li>提出可對外說明的產品化路徑：骨架 → 前端底座 → Design System → AI 可生成</li><li>釐清「MUI 是底座、不是產品設計」：其上仍需產品級 Token／規範</li><li>整理 Design System 對使用者／設計師／PM·RD 的價值，以及六步 AI 生成閉環</li><li>給 PM 的決策清單：現在要決定的、設計要建立的、最終要達到的</li></ul>
-
-    <h2>精選畫面</h2><div class="gallery"><figure>
-          <img src="../images/productization-ai-ui/img01_diagram.png" alt="核心概念四步驟：骨架→皮膚→設計語言→AI 產出" loading="lazy">
-          <figcaption>核心概念四步驟：骨架→皮膚→設計語言→AI 產出</figcaption>
-        </figure><figure>
-          <img src="../images/productization-ai-ui/img02_diagram.png" alt="產品系統架構：模組／共用服務／身份權限分層" loading="lazy">
-          <figcaption>產品系統架構：模組／共用服務／身份權限分層</figcaption>
-        </figure><figure>
-          <img src="../images/productization-ai-ui/img03_diagram.png" alt="前端技術堆疊：React → MUI → Design System → 產品介面" loading="lazy">
-          <figcaption>前端技術堆疊：React → MUI → Design System → 產品介面</figcaption>
-        </figure><figure>
-          <img src="../images/productization-ai-ui/img04_diagram.png" alt="AI 自動生成六步鏈路：架構到 RD／UX 驗證" loading="lazy">
-          <figcaption>AI 自動生成六步鏈路：架構到 RD／UX 驗證</figcaption>
-        </figure><figure>
-          <img src="../images/productization-ai-ui/img05_diagram.png" alt="Design System 對使用者／設計師／PM·RD 的價值" loading="lazy">
-          <figcaption>Design System 對使用者／設計師／PM·RD 的價值</figcaption>
-        </figure></div>
-
-        <div class="prev-next">
-      <div></div><a href="esg-ai-ocr-entry.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">ESG 活動數據填寫：人性化 AI 設計…</div></a>
-    </div>
+    <div class="prev-next"><div></div><a href="esg-ai-ocr-entry.html" style="text-align:right"><div class="label">下一個 →</div><div class="title">ESG 活動數據填寫：人性化 AI 設計…</div></a></div>
   </div>
 </section>
 

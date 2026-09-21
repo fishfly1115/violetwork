@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initGalleryLightbox() {
-  const figures = Array.from(document.querySelectorAll(".gallery figure")).filter((fig) =>
+  const figures = Array.from(document.querySelectorAll(".gallery figure, .visual-story figure")).filter((fig) =>
     fig.querySelector("img")
   );
   if (!figures.length) return;
