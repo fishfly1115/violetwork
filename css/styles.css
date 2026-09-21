@@ -532,10 +532,11 @@ section .prose, section .wrap.prose { padding-bottom: 2rem; }
   align-items: start;
 }
 .portrait-sm {
-  width: 112px;
-  height: 112px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   border: 2px solid var(--border-strong);
   box-shadow: 0 8px 24px rgba(0,0,0,0.35);
   flex-shrink: 0;
@@ -557,7 +558,10 @@ section .prose, section .wrap.prose { padding-bottom: 2rem; }
 }
 @media (max-width: 800px) {
   .about-card-with-photo {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto 1fr;
   }
-  .portrait-sm { width: 96px; height: 96px; }
+  .about-card-with-photo .about-aside {
+    grid-column: 1 / -1;
+  }
+  .portrait-sm { width: 120px; height: 120px; }
 }

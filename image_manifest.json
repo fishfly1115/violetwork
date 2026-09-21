@@ -1,275 +1,232 @@
 {
-  "productization-ai-ui": [
-    {
-      "file": "productization-ai-ui/img01_diagram.png",
-      "alt": "核心四步：骨架 → 皮膚 → 設計語言 → AI 產出",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img02_diagram.png",
-      "alt": "產品系統架構：模組／共用服務／身份權限",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img03_diagram.png",
-      "alt": "前端堆疊：React → MUI → Design System",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img04_diagram.png",
-      "alt": "AI 生成六步：架構到 RD／UX 驗證",
-      "status": "generated_anonymized"
-    },
-    {
-      "file": "productization-ai-ui/img05_diagram.png",
-      "alt": "Design System 對使用者／設計／PM·RD 的價值",
-      "status": "generated_anonymized"
-    }
-  ],
-  "esg-ai-ocr-entry": [
-    {
-      "file": "esg-ai-ocr-entry/img01_before_flow_redacted.png",
-      "alt": "現況：傳統表單流程（產品名已遮罩）",
-      "status": "redacted"
-    },
-    {
-      "file": "esg-ai-ocr-entry/img02_upload_redacted.png",
-      "alt": "步驟 1：整批上傳與 AI 辨識佇列",
-      "status": "redacted"
-    },
-    {
-      "file": "esg-ai-ocr-entry/img03_overview.png",
-      "alt": "步驟 2：分類總覽與信心度分佈",
-      "status": "safe"
-    },
-    {
-      "file": "esg-ai-ocr-entry/img04_classify_check_redacted.png",
-      "alt": "分類核對：建議修正與未能分類",
-      "status": "redacted"
-    },
-    {
-      "file": "esg-ai-ocr-entry/img05_field_review_redacted.png",
-      "alt": "原件對照與欄位信心度審查",
-      "status": "redacted"
-    },
-    {
-      "file": "esg-ai-ocr-entry/img06_low_confidence_redacted.png",
-      "alt": "低信心例外與候選值",
-      "status": "redacted"
-    },
-    {
-      "file": "esg-ai-ocr-entry/img07_import_result_redacted.png",
-      "alt": "完成：寫回表格並標示 AI 匯入",
-      "status": "redacted"
-    }
-  ],
-  "vibe-coding-collaboration": [
-    {
-      "file": "vibe-coding-collaboration/img01_redacted.png",
-      "alt": "Design Token 驅動主題預覽（品牌已遮罩）",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img02_redacted.png",
-      "alt": "監控 dashboard 改良示意（網域／IP 已遮罩）",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img03_redacted.png",
-      "alt": "協作／流程相關視覺",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img04_redacted.png",
-      "alt": "複雜選取互動 UI",
-      "status": "redacted"
-    },
-    {
-      "file": "vibe-coding-collaboration/img05_redacted.png",
-      "alt": "規範與 UX Review 相關視覺",
-      "status": "redacted"
-    }
-  ],
-  "security-asset-platform": [
-    {
-      "file": "security-asset-platform/img01_redacted.png",
-      "alt": "資產／弱點修補總覽（hostname 已遮罩）",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img02_redacted.png",
-      "alt": "弱點狀態分流表",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img03_redacted.png",
-      "alt": "資產檢視與搜尋",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img04_redacted.png",
-      "alt": "修補紀錄與嚴重度",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img05_redacted.png",
-      "alt": "Agent 更新相關畫面",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img06_redacted.png",
-      "alt": "軟體軌跡／稽核相關",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img07_redacted.png",
-      "alt": "細節檢視示意",
-      "status": "redacted"
-    },
-    {
-      "file": "security-asset-platform/img08_redacted.png",
-      "alt": "操作流補充畫面",
-      "status": "redacted"
-    }
-  ],
-  "design-ai-exploration": [
-    {
-      "file": "design-ai-exploration/img01.png",
-      "alt": "產品開發流程角色插畫",
-      "status": "safe"
-    },
-    {
-      "file": "design-ai-exploration/img02_redacted.png",
-      "alt": "Design AI 工具探索視覺",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img03_redacted.png",
-      "alt": "畫布／工具示意",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img04_redacted.png",
-      "alt": "AI 設計流程觀察",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img05_redacted.png",
-      "alt": "AI 生成企業儀表板實驗",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img06_redacted.png",
-      "alt": "介面變體探索",
-      "status": "redacted"
-    },
-    {
-      "file": "design-ai-exploration/img07_redacted.png",
-      "alt": "元件與版面實驗",
-      "status": "redacted"
-    }
-  ],
   "aiops-market-research": [
     {
       "file": "aiops-market-research/img01_journey.png",
-      "alt": "競品用戶旅程骨架（去識別）",
       "status": "generated_anonymized"
     },
     {
       "file": "aiops-market-research/img02_matrix.png",
-      "alt": "能力矩陣示意：監控／關聯／降噪／根因／修復",
       "status": "generated_anonymized"
     },
     {
       "file": "aiops-market-research/img03_dual_axis.png",
-      "alt": "產品敘事雙軸：維運效率 × 合規加分",
       "status": "generated_anonymized"
     },
     {
       "file": "aiops-market-research/img04_process.png",
-      "alt": "研究流程：脈絡 → 盤點 → 旅程 → 合規 → 規劃",
       "status": "generated_anonymized"
     }
   ],
   "deposit-ux-merged": [
     {
-      "file": "deposit-ux-merged/workflow.png",
-      "alt": "Revamp Design 工作流：調查→計畫→UI→審核→上線→分析→迭代",
-      "status": "safe"
-    },
-    {
-      "file": "deposit-ux-merged/img05_tracking_redacted.png",
-      "alt": "Tracking goal 框架（產業用語已遮罩）",
-      "status": "redacted"
-    },
-    {
       "file": "deposit-ux-merged/img03_redacted.png",
-      "alt": "追蹤／分析相關視覺",
       "status": "redacted"
     },
     {
       "file": "deposit-ux-merged/img04_redacted.png",
-      "alt": "設計迭代相關圖",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img05_tracking_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/workflow.png",
+      "status": "safe"
+    }
+  ],
+  "design-ai-exploration": [
+    {
+      "file": "design-ai-exploration/img01.png",
+      "status": "safe"
+    },
+    {
+      "file": "design-ai-exploration/img02_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img03_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img04_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img05_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img06_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img07_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img08_redacted.png",
       "status": "redacted"
     }
   ],
-  "research-institute-web-redesign": [
+  "esg-ai-ocr-entry": [
     {
-      "file": "research-institute-web-redesign/img04_redacted.png",
-      "alt": "快捷列／助手入口改版（機構識別已遮罩）",
+      "file": "esg-ai-ocr-entry/img01_before_flow_redacted.png",
       "status": "redacted"
     },
     {
-      "file": "research-institute-web-redesign/img06_redacted.png",
-      "alt": "分享列視覺層級：主操作高彩度、輔助低彩度",
+      "file": "esg-ai-ocr-entry/img02_upload_redacted.png",
       "status": "redacted"
     },
     {
-      "file": "research-institute-web-redesign/img07_redacted.png",
-      "alt": "RWD／部門切換示意",
+      "file": "esg-ai-ocr-entry/img03_overview.png",
+      "status": "safe"
+    },
+    {
+      "file": "esg-ai-ocr-entry/img04_classify_check_redacted.png",
       "status": "redacted"
     },
     {
-      "file": "research-institute-web-redesign/img08_redacted.png",
-      "alt": "團隊頁 Style 比較／英文版",
+      "file": "esg-ai-ocr-entry/img05_field_review_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "esg-ai-ocr-entry/img06_low_confidence_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "esg-ai-ocr-entry/img07_import_result_redacted.png",
       "status": "redacted"
     }
   ],
   "pm-vs-design-alignment": [
     {
       "file": "pm-vs-design-alignment/img01.png",
-      "alt": "設計師壓力情境：需求反覆修改",
       "status": "safe"
     },
     {
       "file": "pm-vs-design-alignment/img02.png",
-      "alt": "帶設計師一起談需求",
       "status": "safe"
     },
     {
       "file": "pm-vs-design-alignment/img03.png",
-      "alt": "設計決策說明",
       "status": "safe"
     },
     {
       "file": "pm-vs-design-alignment/img04.png",
-      "alt": "使用者反饋情境",
       "status": "safe"
     },
     {
       "file": "pm-vs-design-alignment/img05.png",
-      "alt": "協作流程",
       "status": "safe"
     },
     {
       "file": "pm-vs-design-alignment/img06.png",
-      "alt": "案例視覺補充",
       "status": "safe"
     },
     {
       "file": "pm-vs-design-alignment/img07.png",
-      "alt": "現場介入／STOP 示意",
       "status": "safe"
+    },
+    {
+      "file": "pm-vs-design-alignment/img08.png",
+      "status": "safe"
+    }
+  ],
+  "productization-ai-ui": [
+    {
+      "file": "productization-ai-ui/img01_diagram.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img02_diagram.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img03_diagram.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img04_diagram.png",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img05_diagram.png",
+      "status": "generated_anonymized"
+    }
+  ],
+  "research-institute-web-redesign": [
+    {
+      "file": "research-institute-web-redesign/img04_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "research-institute-web-redesign/img06_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "research-institute-web-redesign/img07_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "research-institute-web-redesign/img08_redacted.png",
+      "status": "redacted"
+    }
+  ],
+  "security-asset-platform": [
+    {
+      "file": "security-asset-platform/img01_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img02_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img03_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img04_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img05_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img06_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img07_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img08_redacted.png",
+      "status": "redacted"
+    }
+  ],
+  "vibe-coding-collaboration": [
+    {
+      "file": "vibe-coding-collaboration/img01_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img02_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img03_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img04_redacted.png",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img05_redacted.png",
+      "status": "redacted"
     }
   ]
 }
