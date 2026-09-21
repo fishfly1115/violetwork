@@ -1,0 +1,199 @@
+{
+  "pm-vs-design-alignment": [
+    {
+      "file": "pm-vs-design-alignment/img01.png",
+      "alt": "設計師壓力情境插畫",
+      "status": "safe"
+    },
+    {
+      "file": "pm-vs-design-alignment/img02.png",
+      "alt": "帶設計師一起談需求與 Design Review 示意",
+      "status": "safe"
+    },
+    {
+      "file": "pm-vs-design-alignment/img03.png",
+      "alt": "設計決策說明視覺",
+      "status": "safe"
+    },
+    {
+      "file": "pm-vs-design-alignment/img04.png",
+      "alt": "使用者反饋情境圖",
+      "status": "safe"
+    },
+    {
+      "file": "pm-vs-design-alignment/img05.png",
+      "alt": "協作流程相關圖",
+      "status": "safe"
+    }
+  ],
+  "vibe-coding-collaboration": [
+    {
+      "file": "vibe-coding-collaboration/img01_redacted.png",
+      "alt": "Design Token 驅動主題預覽（品牌已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img02_redacted.png",
+      "alt": "監控 dashboard 改良示意（網域／IP 已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img04_redacted.png",
+      "alt": "複雜選取互動 UI（識別資訊已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "vibe-coding-collaboration/img05_redacted.png",
+      "alt": "協作／規範相關視覺（頁眉已遮罩）",
+      "status": "redacted"
+    }
+  ],
+  "security-asset-platform": [
+    {
+      "file": "security-asset-platform/img01_redacted.png",
+      "alt": "資安資產／弱點修補 UI 示意 1（hostname／IP 已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img02_redacted.png",
+      "alt": "資安資產／弱點修補 UI 示意 2（hostname／IP 已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img03_redacted.png",
+      "alt": "資安資產／弱點修補 UI 示意 3（hostname／IP 已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "security-asset-platform/img04_redacted.png",
+      "alt": "資安資產／弱點修補 UI 示意 4（hostname／IP 已遮罩）",
+      "status": "redacted"
+    }
+  ],
+  "design-ai-exploration": [
+    {
+      "file": "design-ai-exploration/img01.png",
+      "alt": "產品開發流程角色插畫",
+      "status": "safe"
+    },
+    {
+      "file": "design-ai-exploration/img02_redacted.png",
+      "alt": "Design AI 相關視覺（頁眉已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img03_redacted.png",
+      "alt": "工具或畫布示意（頁眉已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "design-ai-exploration/img04_redacted.png",
+      "alt": "AI 設計流程視覺（頁眉已遮罩）",
+      "status": "redacted"
+    }
+  ],
+  "aiops-market-research": [],
+  "deposit-ux-merged": [
+    {
+      "file": "deposit-ux-merged/workflow.png",
+      "alt": "Revamp Design 流程圖",
+      "status": "safe"
+    },
+    {
+      "file": "deposit-ux-merged/img03_redacted.png",
+      "alt": "流程／追蹤相關視覺（識別資訊已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "deposit-ux-merged/img04_redacted.png",
+      "alt": "設計迭代相關圖（識別資訊已遮罩）",
+      "status": "redacted"
+    }
+  ],
+  "research-institute-web-redesign": [
+    {
+      "file": "research-institute-web-redesign/img04_redacted.png",
+      "alt": "快捷列／助手入口改版示意（機構識別已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "research-institute-web-redesign/img06_redacted.png",
+      "alt": "分享列與視覺層級示意（機構識別已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "research-institute-web-redesign/img07_redacted.png",
+      "alt": "RWD／部門切換相關畫面（機構識別已遮罩）",
+      "status": "redacted"
+    },
+    {
+      "file": "research-institute-web-redesign/img08_redacted.png",
+      "alt": "Style 比較或英文版示意（機構識別已遮罩）",
+      "status": "redacted"
+    }
+  ],
+  "productization-ai-ui": [
+    {
+      "file": "productization-ai-ui/img01_diagram.png",
+      "alt": "核心概念四步驟：骨架→皮膚→設計語言→AI 產出",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img02_diagram.png",
+      "alt": "產品系統架構：模組／共用服務／身份權限分層",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img03_diagram.png",
+      "alt": "前端技術堆疊：React → MUI → Design System → 產品介面",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img04_diagram.png",
+      "alt": "AI 自動生成六步鏈路：架構到 RD／UX 驗證",
+      "status": "generated_anonymized"
+    },
+    {
+      "file": "productization-ai-ui/img05_diagram.png",
+      "alt": "Design System 對使用者／設計師／PM·RD 的價值",
+      "status": "generated_anonymized"
+    }
+  ],
+  "esg-ai-ocr-entry": [
+    {
+      "file": "img01_before_flow_redacted.png",
+      "alt": "現況：傳統表單側欄／查詢／新增流程（產品名與雇主已遮罩）",
+      "redacted": true
+    },
+    {
+      "file": "img02_upload_redacted.png",
+      "alt": "步驟1：上傳單據與 AI 辨識佇列（品牌／檔名已遮罩）",
+      "redacted": true
+    },
+    {
+      "file": "img03_overview.png",
+      "alt": "步驟2：分類結果總覽與信心度分佈",
+      "redacted": false
+    },
+    {
+      "file": "img04_classify_check_redacted.png",
+      "alt": "步驟2：分類核對表——建議修正與未能分類（識別資訊已遮罩）",
+      "redacted": true
+    },
+    {
+      "file": "img05_field_review_redacted.png",
+      "alt": "步驟3：原件對照與欄位信心度審查（供應商／據點已遮罩）",
+      "redacted": true
+    },
+    {
+      "file": "img06_low_confidence_redacted.png",
+      "alt": "步驟3：低信心例外處理與候選值（識別資訊已遮罩）",
+      "redacted": true
+    },
+    {
+      "file": "img07_import_result_redacted.png",
+      "alt": "完成：寫回類別表格並標示 AI 匯入（據點已遮罩）",
+      "redacted": true
+    }
+  ]
+}

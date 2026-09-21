@@ -1,0 +1,450 @@
+[
+  {
+    "id": "productization-ai-ui",
+    "slug": "productization-ai-ui",
+    "title": "產品化 UIUX × AI 自動生成介面",
+    "subtitle": "從產品架構、前端套件到 Design System，建立可被 AI 理解與重複生成的產品基礎",
+    "role": "產品化／UIUX × AI 協作倡議",
+    "timeline": "2026",
+    "tools": [
+      "Design System",
+      "React",
+      "MUI",
+      "Design Token",
+      "MCP / Skills",
+      "AI Coding"
+    ],
+    "tags": [
+      "Productization",
+      "Design System",
+      "AI",
+      "Frontend Architecture",
+      "Enterprise SaaS"
+    ],
+    "summary": "主張 AI 生成介面之前，必須先有產品骨架、統一前端底座與 Design System；以 React + MUI 為基礎建立可被 AI 理解的產品規範，形成「可理解→可生成→可驗證→可持續優化」閉環。",
+    "problem": "若缺少共同產品規則，AI 只能快速生成「看起來能用」的畫面；多模組各自選套件、各自畫元件，會造成體驗不一致、重複開發，也讓 AI Coding 難以落地。",
+    "solution": "先定義帳號／租戶／權限與模組關係（骨架），選定 React + MUI 作為前端底座（皮膚），再建產品 Design System（Token／元件／狀態／規則），再透過 MCP／Skills／Vibe Coding 規範驅動 AI 組裝介面，最後由 RD 驗證與 UIUX 做 UX Review。",
+    "outcomes": [
+      "提出可對外說明的產品化路徑：骨架 → 前端底座 → Design System → AI 可生成",
+      "釐清「MUI 是底座、不是產品設計」：其上仍需產品級 Token／規範",
+      "整理 Design System 對使用者／設計師／PM·RD 的價值，以及六步 AI 生成閉環",
+      "給 PM 的決策清單：現在要決定的、設計要建立的、最終要達到的"
+    ],
+    "sections": [
+      {
+        "heading": "先把產品想清楚",
+        "body": "介面不是從畫面開始，而是從產品系統架構開始：帳號／組織／租戶／角色／權限、功能模組與共用能力、前端基礎，再到產品 Design System。沒有共同規則，AI 只能生成畫面；有了骨架與 DS，才有機會生成一致的產品介面。"
+      },
+      {
+        "heading": "產品系統架構（去識別）",
+        "body": "底層統一身份與權限（SSO／組織／角色／計畫），中層共用待辦／簽核／通知／報表／稽核軌跡，上層模組（如文件、巡檢、財務、稽核）保持獨立產品體驗。產品化不是把所有模組做成一模一樣，而是共享底層規則與使用體驗。"
+      },
+      {
+        "heading": "前端套件與 MUI 決策",
+        "body": "前端套件影響元件完整度、設計資源（含 Figma）、可產品化（主題／Token／客製）與 AI 可落地性。最終以 MUI 作為前端元件基礎，再由產品團隊建立自己的 Design System——MUI 是底座，不是產品設計本身。"
+      },
+      {
+        "heading": "設計 × 前端 × AI",
+        "body": "AI 自動生成介面不是單純把 Figma 丟給 AI，而是讓 AI 同時理解產品結構、元件與使用規則：產品架構 → MUI 基礎 → Design System → 設計稿 → MCP／Skills／規範 → AI Coding。AI 在既定規則內組裝介面，才更容易維持一致性與可開發性。"
+      }
+    ],
+    "cover": "images/productization-ai-ui/img01_diagram.png",
+    "accent": "#60a5fa",
+    "note": "來源簡報無 UI 截圖（僅文字／形狀）；站上為去識別概念圖。產品代號、事業單位與講者姓名已自公開文案移除。"
+  },
+  {
+    "id": "esg-ai-ocr-entry",
+    "slug": "esg-ai-ocr-entry",
+    "title": "ESG 活動數據填寫：人性化 AI 設計",
+    "subtitle": "讓 AI 融入介面——整批上傳、自動分類填寫、一眼確認",
+    "role": "UIUX 設計提案（人性化 AI）",
+    "timeline": "2026 提案優化設計",
+    "tools": [
+      "AI OCR",
+      "Confidence UX",
+      "Human-in-the-loop",
+      "Workflow Design",
+      "Figma / UI Spec"
+    ],
+    "tags": [
+      "ESG",
+      "AI OCR",
+      "Human-Centered AI",
+      "Enterprise SaaS",
+      "Data Entry UX"
+    ],
+    "summary": "針對企業 ESG 活動數據登錄，提出「AI 融入介面」的優化設計：使用者整批上傳單據，由 AI 完成 OCR 辨識、類別判斷與欄位填寫；介面以信心度、原件對照與候選值協助確認，使人從資料輸入者轉為資料確認者。",
+    "problem": "一次登錄上百份單據時，使用者需先理解類別架構、逐頁開表單、對照紙本手打十餘個欄位；紙本與螢幕來回切換易出錯，也難追溯來源。",
+    "solution": "以使用者手上的單據為入口：整批拖曳上傳 → AI OCR 分類與擷取 → 總覽信心度與例外 → 原件並列逐筆確認（含低信心候選值）→ 寫回既有類別表格並標示 AI 匯入、可回溯。",
+    "outcomes": [
+      "定義三段式新流程：上傳＆自動分類 → 核對分類與數據 → 匯入各類別表格",
+      "提出六項人性化原則：從使用者起點出發、先給全貌、AI 建議人決定、可對照、注意力留給例外、結果可追溯",
+      "示意場景：200 份單據中約 180 份可由 AI 自動分類，人工只需處理少數例外（示意數據）",
+      "角色轉變：資料輸入者 → 資料確認者；繁瑣重複交給 AI，判斷權留在人"
+    ],
+    "sections": [
+      {
+        "heading": "核心觀點：AI 融入介面",
+        "body": "不是在系統旁邊加一個 AI，而是讓 AI 成為操作流程的一部分。使用者照習慣把單據交出去、看一眼、確認；AI 在背後完成辨識、分類與填寫；介面再用信心度、原件對照與修正建議把兩者接起來。"
+      },
+      {
+        "heading": "現況痛點",
+        "body": "以一次登錄約 200 份單據為例，需數百次開表單、上千次手動輸入；使用者得先判斷類別、找到對應頁面，再逐欄對照紙本——易看錯行、難查證。"
+      },
+      {
+        "heading": "設計轉變",
+        "body": "從「人配合系統的資料結構」改為「系統配合人手上的單據」：拖曳上傳 → AI 辨識分類填寫 → 人確認修正 → AI 寫入表格並附佐證。"
+      },
+      {
+        "heading": "六項人性化原則",
+        "body": "1) 從使用者起點出發（不必先懂分類架構）；2) 先給全貌再談細節；3) AI 提建議、人做決定；4) 可對照、看得懂（信心度＋原圖框選）；5) 注意力留給例外；6) 結果透明可追溯（AI 匯入標記與紀錄）。"
+      }
+    ],
+    "cover": "images/esg-ai-ocr-entry/img03_overview.png",
+    "accent": "#34d399",
+    "note": "產品名、雇主頁腳、示意供應商／據點／檔名已遮罩；文案以產業通用 ESG 活動數據描述，不具名雇主與產品正式名。"
+  },
+  {
+    "id": "vibe-coding-collaboration",
+    "slug": "vibe-coding-collaboration",
+    "title": "AI Vibe Coding 協作：誰來確保 UI「好用、可維護、可落地」",
+    "subtitle": "從逐頁畫稿，走向 Design System 驅動的規則先行模式",
+    "role": "UI/UX 觀點倡議",
+    "timeline": "2026 內部研討",
+    "tools": [
+      "AI Coding",
+      "Design System",
+      "Design Token",
+      "MCP / Skills",
+      "Figma（tokens 流程）",
+      "Vite"
+    ],
+    "tags": [
+      "AI",
+      "Vibe Coding",
+      "Design System",
+      "Collaboration",
+      "UX Review"
+    ],
+    "summary": "探討 Vibe Coding 讓 AI 快速產出可操作 UI 的價值與風險：當 Prototype 被當成 Design Spec，體驗與一致性會被鎖死；提出以 Design System／Token／規範驅動 AI，UIUX 轉為規則制定者與 UX Reviewer。",
+    "problem": "AI 很快做出「看起來能用」的畫面後，PM／RD 容易把 Prototype 當最終規格，UI/UX 對資訊架構、空狀態、權限、RWD、系統一致性的把關空間被壓縮。",
+    "solution": "保留 Vibe Coding 的速度優勢，但改為：先建 Design System 與 Token → 透過 MCP/Skills 讓 AI 讀規則 → 訂 Vibe Coding 規範 → AI 生成 → RD 驗證 → UIUX 做 UX Review。",
+    "outcomes": [
+      "定義新協作模型：UIUX 交付物從「每頁畫面」變為「可執行的設計規則」+「使用者角度驗收」",
+      "新舊模式對照表：一致性改由系統保證，成本從反覆重畫轉為一次性規則建置",
+      "指出風險：規則不完整時，AI 會「一致地錯」"
+    ],
+    "sections": [
+      {
+        "heading": "什麼是 Vibe Coding",
+        "body": "用自然語言描述需求，AI 產生／修改程式與介面，再透過 Prompt→修改→執行快速迭代，形成像產品的 Prototype。"
+      },
+      {
+        "heading": "衝突點",
+        "body": "PM 看重可執行性與完成感；UI/UX 看重可用性、一致性、完整性。Prototype 定型後修改成本上升。"
+      },
+      {
+        "heading": "新模式：規則先行",
+        "body": "Design System → MCP/Skills → Vibe Coding 規範 → AI Coding → RD 驗證 → UX Review。"
+      },
+      {
+        "heading": "範例觀察（已去識別）",
+        "body": "簡報含 Design Token 驅動主題預覽、以及監控類 dashboard 改良對照，用以說明 AI 產出需再經體驗把關。"
+      }
+    ],
+    "cover": "images/vibe-coding-collaboration/img01_redacted.png",
+    "accent": "#22d3ee"
+  },
+  {
+    "id": "security-asset-platform",
+    "slug": "security-asset-platform",
+    "title": "資安資產清單與弱點修補管理平台",
+    "subtitle": "對齊法規稽核需求的資產查詢／弱點修補工作流",
+    "role": "產品 UI／工作流設計",
+    "timeline": "企業資安產品",
+    "tools": [
+      "Agent 資安蒐集",
+      "Windows KBID／Patch 自動化",
+      "企業資安產品 UI"
+    ],
+    "tags": [
+      "Cybersecurity",
+      "Enterprise SaaS",
+      "Dashboard",
+      "Compliance",
+      "Product UI"
+    ],
+    "summary": "為滿足資安法、金融／上市櫃監管與 ISO 27001 對資產清單與弱點修補的稽核要求，設計資產 IP 檢視、弱點狀態分流與修補紀錄等產品能力，並涵蓋 Agent 自動更新與已刪除軟體軌跡。",
+    "problem": "公務機關、關鍵基礎設施與受監管企業需定期提交／留存弱點掃描與修補證據；實務上資產盤點、修補進度與查核舉證常分散且難追溯。",
+    "solution": "以統一平台支援資產清單查詢與弱點修補管理：依未修補／已改善／已修補分流、CVE 與嚴重度呈現、改善措施紀錄；Agent 自動更新與 Windows patch；保留軟體消失軌跡以利稽核。",
+    "outcomes": [
+      "對應政府／資安署申報與內部報告場景",
+      "可證明 Windows 更新進度是否合規",
+      "Email／查核證據留存情境被點名為使用時機（簡報條列）"
+    ],
+    "sections": [
+      {
+        "heading": "法規與標準脈絡",
+        "body": "資通安全管理法（定期弱點掃描修補與留存）、金融與上市櫃監管／ESG 揭露、ISO 27001 稽核必考資產管理與弱點修補。"
+      },
+      {
+        "heading": "產品能力（去識別）",
+        "body": "資產 IP 檢視、弱點修補管理表、狀態分頁、搜尋與改善措施編輯；Agent 自動更新與 KB patch；已刪除軟體紀錄。"
+      },
+      {
+        "heading": "使用時機",
+        "body": "政府稽核或例行申報；工程師修補與會議報告；證明更新進度；留存查核證據。"
+      }
+    ],
+    "cover": "images/security-asset-platform/img01_redacted.png",
+    "accent": "#34d399",
+    "note": "截圖已遮罩 hostname／IP；產品正式名稱已匿名。"
+  },
+  {
+    "id": "design-ai-exploration",
+    "slug": "design-ai-exploration",
+    "title": "Design AI 心得：從單頁生成到企業環境整合",
+    "subtitle": "探索設計 AI 工具鏈，並反思企業 Domain Know-how 的落地門檻",
+    "role": "產品策略／工具探索",
+    "timeline": "2026 心得分享",
+    "tools": [
+      "Design AI",
+      "Codex",
+      "Claude Code",
+      "Canvas／設計畫布類工具"
+    ],
+    "tags": [
+      "Design AI",
+      "Generative AI",
+      "Product Strategy",
+      "Tooling"
+    ],
+    "summary": "分享使用設計／程式 AI（含單頁設計、畫布、程式代理）的實作心得，並指出 AI 能寫功能卻難快速整合各企業異質環境與 Domain Know-how——需要產品策略上的深度整合，而非只拋功能實驗。",
+    "problem": "AI 可以快速產生頁面與功能原型，但企業實際運作方式、異質系統與領域知識無法被模型自動掌握，導致「看起來能用」與「可落地」之間落差。",
+    "solution": "並行探索多種 Design AI／Coding Agent 工具；用實驗驗證哪些能力黏得住；同時強調軟體產品需深度整合企業環境與 Domain Know-how。",
+    "outcomes": [
+      "整理 Open Design／Codex／Claude Code 等工具試用觀察（名稱可作工具標籤，非客戶名）",
+      "形成對 AI 產品設計的策略觀點：實驗要敢丟，落地要整合環境"
+    ],
+    "sections": [
+      {
+        "heading": "工具探索",
+        "body": "涵蓋 UIUX Design AI、單頁設計、Design／Canvas 工作流，以及 Coding Agent（Codex、Claude Code）輔助。"
+      },
+      {
+        "heading": "產品觀點",
+        "body": "「把意大利麵扔到牆上，看看哪些能粘住」——鼓勵實驗；但企業軟體必須解決異質環境整合與 Domain Know-how，AI 很難單靠生成跨越。"
+      }
+    ],
+    "cover": "images/design-ai-exploration/img01.png",
+    "accent": "#f472b6"
+  },
+  {
+    "id": "aiops-market-research",
+    "slug": "aiops-market-research",
+    "title": "智能維運產品市場研究：AIOps 競品旅程與零信任脈絡",
+    "subtitle": "從數位轉型需求、競品用戶旅程到資安補助與產品形象設計",
+    "role": "市場研究／產品規劃",
+    "timeline": "2024",
+    "tools": [
+      "競品調研",
+      "用戶旅程圖",
+      "簡報",
+      "產品品牌設計"
+    ],
+    "tags": [
+      "AIOps",
+      "Competitive Research",
+      "User Journey",
+      "Product Strategy",
+      "Cybersecurity Context"
+    ],
+    "summary": "以企業數位轉型與政府資安／零信任補助為背景，完成地端 AIOps 競品盤點與用戶旅程拆解，並收斂智能維運產品規劃與視覺識別方向（公開文案已去除真實產品與雇主品牌名）。",
+    "problem": "臺灣企業數位轉型訴求效率提升，但 IT 維運告警噪音、跨來源整合與根因分析能力不足；同時資安／零信任成為公司治理與補助加分項，產品需同時對齊效率與合規敘事。",
+    "solution": "盤點 AIOps 競品能力與付費模式；以用戶旅程圖拆解競品在監管→查找→解決→整合各階段的痛點解法；對照零信任／SIEM 補助政策；提出產品階段目標與品牌意象設計。",
+    "outcomes": [
+      "整理 10+ AIOps 競品矩陣（特色／付費／價位帶）",
+      "產出多個競品用戶旅程圖（監控→告警降噪→修復啟動）",
+      "對齊零信任補助與公司治理資安加分敘事",
+      "完成產品形象／logo 概念說明（公開時需去品牌）"
+    ],
+    "sections": [
+      {
+        "heading": "市場脈絡",
+        "body": "引用產業調查：多數企業期望以數位轉型提升作業效率，並關注補助與專家輔導。產品規劃對齊「提升效率」與「可申請補助／加分」雙軸。"
+      },
+      {
+        "heading": "AIOps 競品研究",
+        "body": "比較全棧監控、事件關聯、告警降噪等能力與訂閱制價位帶；並用旅程圖拆解競品如何整合多來源、做根因／關聯、啟動修復。"
+      },
+      {
+        "heading": "資安／零信任延伸",
+        "body": "整理政府推動機關與企業導入零信任的補助與評鑑脈絡，作為產品敘事加分項（公開文案不具名具體補助計畫細節若需可再精簡）。"
+      },
+      {
+        "heading": "產品形象（已去識別）",
+        "body": "以「全方位智能營運／全知監察」意象設計識別與 UI 方向；建站時不可直接使用含雇主／產品正式名稱的 logo 稿。"
+      }
+    ],
+    "cover": null,
+    "accent": "#a78bfa",
+    "note": "競品與雇主產品截圖含大量品牌識別，本站以旅程架構與文字敘事呈現，未嵌入原始截圖。",
+    "show_journey": true
+  },
+  {
+    "id": "deposit-ux-merged",
+    "slug": "deposit-ux-merged",
+    "title": "多市場儲值體驗改版：假設驅動的設計追蹤與迭代",
+    "subtitle": "合併 Revamp Workflow 與 Design Tracking Plan：從假設、埋點到監控複盤",
+    "role": "產品分析／UIUX 設計協作",
+    "timeline": "2023-11 ～ 2024-03",
+    "tools": [
+      "GA",
+      "GTM",
+      "CRM log",
+      "Design Tracking Plan",
+      "Wireflow／Mockup",
+      "A/B 分流",
+      "DB 監控",
+      "YouTube analytics",
+      "Hypothesis cards"
+    ],
+    "tags": [
+      "UX Research",
+      "Analytics",
+      "Hypothesis-Driven Design",
+      "Conversion",
+      "Design Iteration"
+    ],
+    "summary": "以假設（hypothesis）驅動儲值體驗改版：建立功能上線紀錄與追蹤計畫、埋設 GA／datalayer 區分新舊用戶，並用監控數據迭代教學影片、再試一次、快速標籤等功能；同時分享分流錯誤等採坑。 並延伸以假設卡與 DB／GA 成功率對照完成功能複盤。",
+    "problem": "舊儲值流程轉換與自助完成率不足；教學與通路資訊不易被發現；新舊用戶行為不同，若未正確分流與埋點，會誤判改版成效。",
+    "solution": "定義 Revamp workflow（調查→追蹤計畫→UI→審核→上線→分析→迭代）；為各功能寫 For/If/Then/Because/Impact 假設；GA event + datalayer 區分新舊客；依點擊與儲值成功率迭代 UI（更明顯按鈕、PiP 教學影片等）。",
+    "outcomes": [
+      "建立可重複使用的 Design Tracking / GA 規劃模板",
+      "多功能分批上線並對照監控指標（點擊、參與度、成功率）",
+      "記錄分流錯誤與關鍵影響者等監控採坑，供團隊複盤",
+      "功能×工單×上線時間追蹤表",
+      "多幣別市場成功率對照（新舊版）",
+      "教學影片問題分析與後續埋點建議"
+    ],
+    "sections": [
+      {
+        "heading": "改版工作流",
+        "body": "CRM／GA／User Story Mapping 調查 → Design Proposal & Tracking Plan → Wireflow／Mockup → 多層 Review → Online → Tracking Analysis → Iteration。"
+      },
+      {
+        "heading": "假設與埋點",
+        "body": "以「教學影片降低詢問率」「再試一次提高成功率」等假設對應 GA 點擊與 CRM；datalayer 區分 old/new user，避免平均指標掩蓋差異。"
+      },
+      {
+        "heading": "迭代與採坑（去識別）",
+        "body": "從「看不到」到更明顯按鈕、PiP 影片；分享 user 分流錯誤與找出關鍵影響者的監控案例。"
+      },
+      {
+        "heading": "假設卡方法",
+        "body": "統一用 For [user] if [feature] then [behavior] because [reason] which will impact [metric]，並指定 Monitor 來源。"
+      },
+      {
+        "heading": "監控與複盤（去識別）",
+        "body": "DB 成功率、GA 點擊比例、影音觀看；記錄特定通路異常詢問與新舊客點擊下降原因，提出分流埋點修正。"
+      }
+    ],
+    "cover": "images/deposit-ux-merged/workflow.png",
+    "accent": "#fb923c",
+    "note": "產業與客戶品牌已匿名；分析後台與第三方品牌截圖未上架。"
+  },
+  {
+    "id": "research-institute-web-redesign",
+    "slug": "research-institute-web-redesign",
+    "title": "研究機構官網改版：快捷列、視覺層級與專業團隊頁",
+    "subtitle": "側欄互動、分享／列印、團隊 Tab／RWD／英文化的 UIUX 提案",
+    "role": "UI/UX 網頁改版提案",
+    "timeline": "2025/08",
+    "tools": [
+      "網頁 UI",
+      "RWD",
+      "視覺層級",
+      "互動原型示意"
+    ],
+    "tags": [
+      "Web Redesign",
+      "UI",
+      "RWD",
+      "Visual Hierarchy",
+      "Institutional"
+    ],
+    "summary": "針對研究機構官網提出一系列介面改版：右側快捷功能收合與造型、助手入口擴充、分享列視覺層級（主／輔操作色階）、友善列印強調，以及專業團隊頁兩套 Style（Tab 切換部門、Hover、RWD、英文版兩行 Tab）。",
+    "problem": "快捷與分享操作層級不清、列印入口不夠顯眼；專業團隊頁資訊密度與部門切換在桌機／手機／英文版的體驗不一致。",
+    "solution": "重做側欄快捷（收合、圓弧造型）；依「主動導出 vs 輔助」分色階安排分享／複製連結；強化列印 CTA；專業團隊頁提出 Style 1（高資訊密度 Tab）與 Style 2（圓弧、留白、左側部門）並補齊 Hover／RWD／英文版。",
+    "outcomes": [
+      "完成可對客戶說明的設計決策文案（為何複製連結用低彩度等）",
+      "兩套團隊頁風格 + 部門切換／RWD／英文版完整示意",
+      "快捷列與助手入口的互動細節提案"
+    ],
+    "sections": [
+      {
+        "heading": "快捷與分享列",
+        "body": "收合按鈕與圓弧造型提升可發現性；Facebook／LINE／列印／PDF 用高彩度，複製連結用淺灰降低權重。"
+      },
+      {
+        "heading": "專業團隊 Style 1",
+        "body": "Tab 切換部門減少長滾動；強化姓名／職位色階與照片邊框；提高同屏人數。"
+      },
+      {
+        "heading": "專業團隊 Style 2 與多語 RWD",
+        "body": "圓弧與留白提升親切感；手機 <990px Tab 自適應；英文版桌機 Tab 兩行以顯示全部部門。"
+      }
+    ],
+    "cover": "images/research-institute-web-redesign/img04_redacted.png",
+    "accent": "#2dd4bf",
+    "note": "機構 logo、聯絡資訊與人員肖像／姓名已遮罩或排除；展示為去識別後的介面結構。"
+  },
+  {
+    "id": "pm-vs-design-alignment",
+    "slug": "pm-vs-design-alignment",
+    "title": "需求歪樓：PM 聽到的 vs 設計聽到的",
+    "subtitle": "帶設計師一起面對 User，才能釐清真正問題",
+    "role": "產品／設計協作倡議",
+    "timeline": "內部經驗分享",
+    "tools": [
+      "簡報",
+      "現場 Demo",
+      "設計協作"
+    ],
+    "tags": [
+      "UX Collaboration",
+      "Stakeholder Management",
+      "Product Design",
+      "Case Study"
+    ],
+    "summary": "透過五則真實需求誤讀案例，說明 PM 與設計師對同一句 User 反饋可能走向完全不同解法，主張 PM 應帶設計師進場、只傳達需求不預設設計方向。",
+    "problem": "User 的口頭反饋常被 PM 直接翻譯成具體設計指令（放大字體、改排版、做 N 種版型），導致設計方向被過早鎖死，真正問題未被釐清。",
+    "solution": "邀請設計師一起面談；現場釐清是顏色／字體／資訊架構等哪類問題；用 Demo 或減法設計驗證；必要時當場 STOP 不當需求。",
+    "outcomes": [
+      "案例顯示：看似「字太小」實際是配色問題，調完回到原設計配色",
+      "「看不到重點」用減法收納資訊，而非只放大文字",
+      "「三版型三顏色」從 12 稿收斂為 3 個合理組合",
+      "不當的手機 Filter 外提需求被現場攔下，避免破壞體驗"
+    ],
+    "sections": [
+      {
+        "heading": "核心主張",
+        "body": "同樣一句 User 反饋，PM 與設計師理解可以截然不同。帶設計師一起談，才能在現場釐清真正問題。PM 只要說 User 需求，不要定死設計方向。"
+      },
+      {
+        "heading": "方法一：傳圖給 User 自己看",
+        "body": "不是只介紹畫面長什麼樣，而是設計師向 User 說明設計理念與決策，讓對方理解「為什麼要這樣設計」。"
+      },
+      {
+        "heading": "方法二：User 想要的不一定是對的",
+        "body": "需要專業建議時，設計師在場才能即時介入、給出正確方向（例如 STOP 不當的 Filter 外提）。"
+      },
+      {
+        "heading": "案例精選（已去識別）",
+        "body": "EX1 標題看不清→釐清顏色 vs 字體；EX2 看不到重點→減法收納；EX3 多版型多顏色→合理收斂稿數；EX4/EX5 現場介入避免錯走。"
+      }
+    ],
+    "cover": "images/pm-vs-design-alignment/img01.png",
+    "accent": "#7c6cff"
+  }
+]
